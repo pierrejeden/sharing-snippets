@@ -1,0 +1,5 @@
+{
+  "pipeline": {"name": "pipe-bbb"},
+  "transform": {"image": "bbb-image", "cmd": [ "python", "bbb.py" ]},
+  "input": {"pfs": {"repo": "pipe-aaa", "glob": "/*"}}
+}
